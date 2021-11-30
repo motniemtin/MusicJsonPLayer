@@ -1,0 +1,25 @@
+{
+  "name": "musicjsonplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode production --watch --progress",
+    "build": "webpack --mode production --progress"
+  },
+  "author": "Lam Nguyen <motniemtin@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motniemtin/MusicJsonPLayer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/motniemtin/MusicJsonPLayer/issues"
+  },
+  "homepage": "https://github.com/motniemtin/MusicJsonPLayer#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
