@@ -1,8 +1,8 @@
 // musicjsonplayer.js
 'use strict';
 class MusicJsonPlayer {    
-    constructor(title, jsonData, jsonData, jsonLyric = null) {
-        this.json = jsonFile;
+    constructor(title, artist, jsonData, jsonLyric = null) {
+        this.json = jsonData;
         if(jsonLyric == null){
             this.jsonLyric = null;
         }else{

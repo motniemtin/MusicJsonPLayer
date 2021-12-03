@@ -8,7 +8,7 @@ module.exports = {
     output: {
         path: resolve(__dirname, 'dist'),
         filename: 'musicjsonplayer.js',
-        library: 'scrollSpy'
+        library: 'MusicJsonPlayer'
     },
     plugins: [
         new UglifyJsPlugin({
