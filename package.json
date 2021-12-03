@@ -21,5 +21,8 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
   }
 }
